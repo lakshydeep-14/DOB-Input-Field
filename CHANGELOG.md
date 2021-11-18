@@ -1,3 +1,3 @@
-## 0.0.1
+## [0.0.1] - 2021-11-18
 
-* TODO: Describe initial release.
+* Everyone use this package for inputting DOB manually.
