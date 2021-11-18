@@ -1,5 +1,5 @@
 name: dob_input_field
-description: To input DOB manually from user.
+description: To input DOB manually from user and do auto validation.
 version: 0.0.1
 homepage: https://github.com/lakshydeep-14/DOB-Input-Field.git
 
