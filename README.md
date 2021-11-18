@@ -25,7 +25,7 @@ DOB Input Field package helps you to take dob from user manually. This package v
 
   Install the package :
 ```dart
-dob_input_field: ^1.0
+dob_input_field: ^1.0.0
 ```
 
 ## Usage
