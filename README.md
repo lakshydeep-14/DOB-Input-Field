@@ -16,6 +16,7 @@ DOB Input Field package helps you to take dob from user manually. This package v
 ## Features
 
  - Take DOB manually.
+ - 3 different date Formats
  - Auto validation
  - Fixed character length
  - Date type input keyboard
@@ -25,12 +26,36 @@ DOB Input Field package helps you to take dob from user manually. This package v
 
   Install the package :
 ```dart
-dob_input_field: ^1.0.0
+dob_input_field: ^2.0.0
 ```
 
 ## Usage
 
 Import the package first.
+
+With DateFormat YYYYMMDD
+``` 
+ DOBInputField(
+            firstDate: DateTime(1900),
+            lastDate: DateTime.now(),
+            showLabel: true,
+            dateFormatType: DateFormatType.YYYYMMDD,
+            autovalidateMode: AutovalidateMode.always,
+            fieldLabelText: "With label",
+          ),
+```
+
+With DateFormat DDMMYYYY
+``` 
+ DOBInputField(
+            firstDate: DateTime(1900),
+            lastDate: DateTime.now(),
+            showLabel: true,
+            dateFormatType: DateFormatType.DDMMYYYY,
+            autovalidateMode: AutovalidateMode.always,
+          ),
+```
+
 With Label and with validation
 ```dart
 DOBInputField(
@@ -59,4 +84,4 @@ DOBInputField(
 ```
 
 ## Additional information
-Stay in touch via [LinkedIN](https://www.linkedin.com/in/lakshydeep-14/)  | [Medium](https://lakshydeep-14.medium.com/)
+Stay in touch via [LinkedIN](https://www.linkedin.com/in/lakshydeep-14/)  | [Medium](https://lakshydeep-14.medium.com/) | [GitHub](https://github.com/lakshydeep-14)
