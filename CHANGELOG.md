@@ -1,7 +1,6 @@
 ## [2.0.0] - 2022-09-29
 
-* 3 different dateformat added.
-* User can input date in various formats.
+* User can input date in 3 various different formats.
 
 
 ## [1.0.0] - 2021-11-18
